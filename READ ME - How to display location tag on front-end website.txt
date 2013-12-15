@@ -1,0 +1,19 @@
+TAXOCITY - Read Me: 
+This plugins features an extra field in the post editing windows that makes possible to link the post to a location.
+
+The Taxocity plugin provides an automotic integration of the location into posts & pages metadata on website's front-end, that's why you have to add it yourself to your theme.
+
+Input the following shortcode in post & pages to display the location's name: [taxocity] 
+________________________________________________________________________________________________________________________________
+HOW TO USE? The plugins uses the following shortcode including several variables. Here is the shortcode in its most basic form:
+
+[get_current_weather woeid = '' tempscale = '']
+
+Type the shortcode in any post or page and fill in the blanks:
+
+> woeid= the code corresponding to the chosen location, these woeids codes can be found here (woeids search engine): http://woeid.rosselliot.co.nz/ 
+
+> tempscale= choose between Celsius using letter 'c'  or Farenheit using letter 'f'
+
+Example for the city of Toulouse:
+[get_current_weather woeid = '12657325' tempscale = 'c']
